@@ -1,17 +1,20 @@
 package ex7;
 
 import base.TestInit;
-import ex7.entities.User;
 import org.testng.annotations.Test;
-
 import static ex7.JdiSite.mainPage;
+import static ex7.steps.LoginSteps.shouldBeLoggedIn;
+import static ex7.steps.MetalsColorsSteps.checkLogs;
+import static ex7.steps.MetalsColorsSteps.fillForm;
+import static ex7.Defaults.defaultMCData;
 
 public class MetalsColorsTest extends TestInit {
 
-
     @Test
     public void testMetalsColors() {
-        mainPage.login(new User(properties.getProperty("login"), properties.getProperty("password")));
-
+        shouldBeLoggedIn();
+        mainPage.mainMenu.select(properties.getProperty("metalscolorsmenu"));
+        fillForm();
+        checkLogs(defaultMCData);
     }
 }

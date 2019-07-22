@@ -13,14 +13,19 @@ import ex7.entities.MetalsColors;
 public class MetalsColorsForm extends Form<MetalsColors> {
     @Css(".radio")
     public RadioButtons radios;
+
     @FindBy(id = "elements-checklist")
     public Checklist elements;
+
     @JDropdown(root = "#colors", value = ".filter-option", list = "li", expand = ".caret")
     public Droplist colors;
+
     @JDropdown(root = "#salad-dropdown", value = ".dropdown-toggle", list = "li", expand = ".caret")
     public Droplist vegetables;
+
     @JDropdown(root = "#metals", value = "input", list = "li", expand = ".caret")
     public Droplist metals;
+
     @Css("#submit-button")
     public Button submit;
 

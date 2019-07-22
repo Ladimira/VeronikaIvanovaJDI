@@ -19,6 +19,8 @@ public class LoginForm extends Form<User> {
     Button submit;
 
     @Override
+    // TODO Oh my, take a look on class work. Entity-driving-testing and so on.
+    // TODO Pay attention on code convention and empty lines!
     public void fillAction(Field field, Object element, Object parent, String setValue) {
 
         if (isInterface(field, TextField.class))

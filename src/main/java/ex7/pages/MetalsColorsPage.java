@@ -17,6 +17,7 @@ import java.util.List;
 public class MetalsColorsPage extends WebPage {
     @FindBy(id = "form")
     public MetalsColorsForm metalsColorsForm;
+
     @UI(".results li")
     public List<Label> results;
 

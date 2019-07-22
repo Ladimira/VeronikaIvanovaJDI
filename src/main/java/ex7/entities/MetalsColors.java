@@ -3,6 +3,8 @@ package ex7.entities;
 import java.util.List;
 
 public class MetalsColors {
+    // TODO Oh my, you declare public fields and create getters. What is the reason of that ??
+    // TODO Pay attention to the code convention, you should not declare fields in one line.
     List<String> elements, vegetables;
     String metal,color,radioEven,radioOdd;
 

@@ -13,7 +13,9 @@ public class MetalsColorsTest extends TestInit {
     @Test
     public void testMetalsColors() {
         shouldBeLoggedIn();
+        // TODO What is the reason of property here ?
         mainPage.mainMenu.select(properties.getProperty("metalscolorsmenu"));
+        // TODO This method should be parametrised.
         fillForm();
         checkLogs(defaultMCData);
     }

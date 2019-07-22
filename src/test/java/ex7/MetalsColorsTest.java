@@ -11,6 +11,7 @@ import static ex7.Defaults.defaultMCData;
 public class MetalsColorsTest extends TestInit {
 
     @Test
+    // TODO This test failed.
     public void testMetalsColors() {
         shouldBeLoggedIn();
         // TODO What is the reason of property here ?

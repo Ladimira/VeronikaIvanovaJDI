@@ -16,6 +16,7 @@ import static ex7.JdiSite.mainPage;
 
 public class TestInit {
     protected static Properties properties;
+
     @BeforeSuite(alwaysRun = true)
     public static void setUp() {
         properties = new Properties();
@@ -23,6 +24,7 @@ public class TestInit {
             FileInputStream fis = new FileInputStream("src/test/resources/ex7.properties");
             properties.load(fis);
         } catch (IOException e) {
+            // TODO This is not the best idea to leave catch block empty...
         }
         DriverData.CHROME_OPTIONS = () -> {
             ChromeOptions cap = new ChromeOptions();

@@ -1,0 +1,76 @@
+{
+  "data_1": {
+    "radioOdd": "1",
+    "radioEven": "2",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "color": "Red",
+    "metal": "Gold",
+    "vegetables": [
+      "Cucumber"
+    ]
+  },
+  "data_2": {
+    "radioOdd": "1",
+    "radioEven": "8",
+    "elements": [
+      "Earth",
+      "Wind"
+    ],
+    "color": "Green",
+    "metal": "Silver",
+    "vegetables": [
+      "Tomato",
+      "Vegetables"
+    ]
+  },
+  "data_3": {
+    "radioOdd": "7",
+    "radioEven": "8",
+    "elements": [
+      "Earth",
+      "Fire"
+    ],
+    "color": "Blue",
+    "metal": "Bronze",
+    "vegetables": [
+      "Tomato",
+      "Vegetables",
+      "Onion"
+    ]
+  },
+  "data_4": {
+    "radioOdd": "5",
+    "radioEven": "6",
+    "elements": [
+      "Water",
+      "Wind"
+    ],
+    "color": "Yellow",
+    "metal": "Selen",
+    "vegetables": [
+      "Cucumber",
+      "Onion"
+    ]
+  },
+  "data_5": {
+    "radioOdd": "7",
+    "radioEven": "2",
+    "elements": [
+      "Water",
+      "Earth",
+      "Wind",
+      "Fire"
+    ],
+    "color": "Blue",
+    "metal": "Selen",
+    "vegetables": [
+      "Cucumber",
+      "Tomato",
+      "Vegetables",
+      "Onion"
+    ]
+  }
+}

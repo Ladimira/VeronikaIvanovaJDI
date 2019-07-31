@@ -1,9 +1,9 @@
 package ex7.entities;
 
 public class User {
-    String login;
-    String password;
-    String name;
+    private String login;
+    private String password;
+    private String name;
 
     public User(String login, String password, String name) {
         this.login = login;

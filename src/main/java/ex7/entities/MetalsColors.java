@@ -3,8 +3,14 @@ package ex7.entities;
 import java.util.List;
 
 public class MetalsColors {
-    List<String> elements, vegetables;
-    String metal,color,radioEven,radioOdd;
+    // TODO Oh my, you declare public fields and create getters. What is the reason of that ?? : forgotten private modifier :( done
+    // TODO Pay attention to the code convention, you should not declare fields in one line. : done
+    private List<String> elements;
+    private List<String> vegetables;
+    private String metal;
+    private String color;
+    private String radioEven;
+    private String radioOdd;
 
     public MetalsColors(List<String> elements, List<String> vegetables, String metal, String color, String radioEven, String radioOdd) {
         this.elements = elements;

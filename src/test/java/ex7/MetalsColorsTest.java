@@ -11,10 +11,14 @@ import static ex7.Defaults.defaultMCData;
 public class MetalsColorsTest extends TestInit {
 
     @Test
+    // TODO This test failed.
     public void testMetalsColors() {
         shouldBeLoggedIn();
+        // TODO What is the reason of property here ? :
+        //  till we need only one main menu item. there is no need to create whole enum, as I think
         mainPage.mainMenu.select(properties.getProperty("metalscolorsmenu"));
-        fillForm();
+        // TODO This method should be parametrised. : done
+        fillForm(defaultMCData);
         checkLogs(defaultMCData);
     }
 }
